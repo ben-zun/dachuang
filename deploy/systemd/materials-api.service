@@ -1,0 +1,28 @@
+[Unit]
+Description=Materials assistant API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/materials-assistant
+EnvironmentFile=/opt/materials-assistant/.env
+Environment=PYTHONUNBUFFERED=1
+Environment=AGENT_RUNTIME=v2
+Environment=V2_CORE=1
+Environment=V2_TOOLS=1
+Environment=V2_FACT_CHECKS=1
+Environment=V2_FORMATTING=1
+Environment=V2_DETAILED_ANSWERS=1
+Environment=V2_THINKING_BUDGET=2048
+Environment=V2_TRACE_DIR=logs/bkc-r1
+Environment=CHAT_SESSION_TTL_SECONDS=0
+Environment=TIKTOKEN_CACHE_DIR=/opt/materials-assistant/data/tokenizer_cache
+ExecStart=/opt/materials-assistant/.venv/bin/python -m uvicorn backend.api.bkc:app --host 127.0.0.1 --port 8006
+Restart=on-failure
+RestartSec=5
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

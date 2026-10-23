@@ -1,0 +1,19 @@
+{
+  "version": "v3b-7e3555639d5fe6e7",
+  "base_version": "v3-c847c073c3605567",
+  "unit_count": 31292,
+  "new_units": 662,
+  "config": {
+    "embedding_model": "qwen3.7-text-embedding",
+    "dimension": 1024,
+    "rerank_model": "qwen3.7-text-rerank",
+    "candidate_k": 40,
+    "rerank_k": 32,
+    "context_tokens": 5000,
+    "min_rerank_score": 0.15,
+    "note": "Initial relevance screen, not probability or answerability. Validate with held-out local cases."
+  },
+  "published": false,
+  "built_at": 1792462816.706614,
+  "base_vectors_reused": true
+}

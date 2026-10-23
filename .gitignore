@@ -1,0 +1,31 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+# Runtime data and third-party corpora
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+logs/
+data/chat_history/
+data/chat_sessions/
+data/literature/
+data/core_library/
+data/core_v21/
+data/core_v3b/
+data/mp_snapshot/
+data/tokenizer_cache/
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.faiss
+*.zip
+*.tar.gz
+# Evaluation reruns
+evaluation/materials500/run/
+evaluation/materials500/grading/

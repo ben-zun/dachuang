@@ -1,0 +1,19 @@
+[Unit]
+Description=Materials assistant web UI
+After=network-online.target materials-api.service
+Wants=network-online.target materials-api.service
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/materials-assistant
+Environment=PYTHONUNBUFFERED=1
+Environment=MATERIALS_API_URL=http://127.0.0.1:8006
+Environment=CHAT_HISTORY_DB=/opt/materials-assistant/data/chat_history/history.sqlite
+ExecStart=/opt/materials-assistant/.venv/bin/python -m streamlit run frontend/app.py --server.address 127.0.0.1 --server.port 8507 --server.headless true --browser.gatherUsageStats false
+Restart=on-failure
+RestartSec=5
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

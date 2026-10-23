@@ -1,0 +1,27 @@
+[
+  {
+    "doc_id": "B09-23ee8a914e5e6126",
+    "block_id": "B09-23ee8a914e5e6126:s3:b2",
+    "text": "If there are some randomly distributed impurities or surface charges in the graphene, the G-peak can split into two peaks, G-peak (1583 cm-1) and D’-peak (1620 cm-1). The main reason is that the localized vibrational modes of the impurities can interact with the extended phonon modes of graphene resulting in the observed splitting.",
+    "text_sha256": "ecb0f5c36615c18353b18a43afddfbb7e8cfcb9408fa109ed68764341f969190",
+    "action": "quarantine",
+    "reason": "defect_Dprime_must_not_be_generalized_as_G_mode_splitting",
+    "verification_sources": [
+      "https://arxiv.org/abs/1207.2058",
+      "https://arxiv.org/abs/0812.1538"
+    ],
+    "source_document_sha256": "4462d8388ea74cb81d1865ace15807b436fa8690286b79e59717d74907039c92"
+  },
+  {
+    "doc_id": "B02-e8c13ef2a8f22674",
+    "block_id": "B02-e8c13ef2a8f22674:s0:b0",
+    "text": "A capacitor can be made from potassium nitrate (KNO 3 ), which is ferroelectric below 120°C. (The temperature dependence of ferroelectrics will be explained later.) The following video clip shows the construction of a KNO 3 capacitor, and the hysteresis loop it displays. The circuit used is the standard Sawyer-Tower circuit.",
+    "text_sha256": "2200e404019d762a294ba58181ed84d3699c0b9deb6d68bab029f6e9f4f9052e",
+    "action": "quarantine",
+    "reason": "KNO3_temperature_statement_omits_phase_and_thermal_history",
+    "verification_sources": [
+      "https://oak.go.kr/central/journallist/journaldetail.do?article_seq=13421"
+    ],
+    "source_document_sha256": "05eaf68be59e48c619dd0cb845d43e2f3d7852ebae725a6174abbe8088f519cf"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-23",
+  "python": "3.11.15",
+  "tests_passed": 17,
+  "paid_model_calls": 0,
+  "tasks": 500,
+  "turns_per_arm": 590,
+  "historical_base_usable": 384,
+  "historical_bkc_usable": 462,
+  "question_and_reference_hashes_match": true,
+  "publication_scope": "source, configuration, synthetic UI fixtures, source metadata, historical evaluation tables; no full corpora or private history"
+}

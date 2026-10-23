@@ -1,0 +1,534 @@
+{
+  "scoring_method": "blinded reference-guided qwen-plus assisted grades with explicitly saved assistant review overrides; not independent expert review",
+  "status": "complete",
+  "graded_tasks": 500,
+  "total_tasks": 500,
+  "overall": {
+    "tasks": 500,
+    "pairs": {
+      "both_good": 359,
+      "rescue": 103,
+      "interference": 25,
+      "both_bad": 13
+    },
+    "base": {
+      "usable": 384,
+      "A": 331,
+      "grades": {
+        "A": 331,
+        "B": 53,
+        "C": 87,
+        "D": 29
+      },
+      "complete": 380,
+      "severe": 116,
+      "tasks_with_api_error": 0,
+      "llm_calls": 590,
+      "input_tokens": 69601,
+      "output_tokens": 1038661
+    },
+    "bkc": {
+      "usable": 462,
+      "A": 438,
+      "grades": {
+        "A": 438,
+        "B": 24,
+        "D": 12,
+        "C": 26
+      },
+      "complete": 457,
+      "severe": 24,
+      "tasks_with_api_error": 0,
+      "llm_calls": 764,
+      "input_tokens": 5242161,
+      "output_tokens": 962958
+    }
+  },
+  "both_returned_without_api_error": {
+    "tasks": 500,
+    "pairs": {
+      "both_good": 359,
+      "rescue": 103,
+      "interference": 25,
+      "both_bad": 13
+    },
+    "base": {
+      "usable": 384,
+      "A": 331,
+      "grades": {
+        "A": 331,
+        "B": 53,
+        "C": 87,
+        "D": 29
+      },
+      "complete": 380,
+      "severe": 116,
+      "tasks_with_api_error": 0,
+      "llm_calls": 590,
+      "input_tokens": 69601,
+      "output_tokens": 1038661
+    },
+    "bkc": {
+      "usable": 462,
+      "A": 438,
+      "grades": {
+        "A": 438,
+        "B": 24,
+        "D": 12,
+        "C": 26
+      },
+      "complete": 457,
+      "severe": 24,
+      "tasks_with_api_error": 0,
+      "llm_calls": 764,
+      "input_tokens": 5242161,
+      "output_tokens": 962958
+    }
+  },
+  "by_difficulty": {
+    "L1": {
+      "tasks": 174,
+      "pairs": {
+        "both_good": 113,
+        "rescue": 44,
+        "both_bad": 11,
+        "interference": 6
+      },
+      "base": {
+        "usable": 119,
+        "A": 103,
+        "grades": {
+          "A": 103,
+          "B": 16,
+          "C": 46,
+          "D": 9
+        },
+        "complete": 116,
+        "severe": 55,
+        "tasks_with_api_error": 0,
+        "llm_calls": 175,
+        "input_tokens": 7631,
+        "output_tokens": 302801
+      },
+      "bkc": {
+        "usable": 157,
+        "A": 154,
+        "grades": {
+          "A": 154,
+          "B": 3,
+          "D": 8,
+          "C": 9
+        },
+        "complete": 156,
+        "severe": 8,
+        "tasks_with_api_error": 0,
+        "llm_calls": 209,
+        "input_tokens": 1342212,
+        "output_tokens": 284576
+      }
+    },
+    "L2": {
+      "tasks": 231,
+      "pairs": {
+        "both_good": 181,
+        "rescue": 36,
+        "interference": 13,
+        "both_bad": 1
+      },
+      "base": {
+        "usable": 194,
+        "A": 169,
+        "grades": {
+          "A": 169,
+          "B": 25,
+          "C": 23,
+          "D": 14
+        },
+        "complete": 194,
+        "severe": 37,
+        "tasks_with_api_error": 0,
+        "llm_calls": 282,
+        "input_tokens": 37703,
+        "output_tokens": 478901
+      },
+      "bkc": {
+        "usable": 217,
+        "A": 200,
+        "grades": {
+          "A": 200,
+          "B": 17,
+          "C": 13,
+          "D": 1
+        },
+        "complete": 215,
+        "severe": 10,
+        "tasks_with_api_error": 0,
+        "llm_calls": 380,
+        "input_tokens": 2662648,
+        "output_tokens": 449367
+      }
+    },
+    "L3": {
+      "tasks": 95,
+      "pairs": {
+        "both_good": 65,
+        "rescue": 23,
+        "interference": 6,
+        "both_bad": 1
+      },
+      "base": {
+        "usable": 71,
+        "A": 59,
+        "grades": {
+          "A": 59,
+          "B": 12,
+          "C": 18,
+          "D": 6
+        },
+        "complete": 70,
+        "severe": 24,
+        "tasks_with_api_error": 0,
+        "llm_calls": 133,
+        "input_tokens": 24267,
+        "output_tokens": 256959
+      },
+      "bkc": {
+        "usable": 88,
+        "A": 84,
+        "grades": {
+          "A": 84,
+          "D": 3,
+          "C": 4,
+          "B": 4
+        },
+        "complete": 86,
+        "severe": 6,
+        "tasks_with_api_error": 0,
+        "llm_calls": 175,
+        "input_tokens": 1237301,
+        "output_tokens": 229015
+      }
+    }
+  },
+  "by_group": {
+    "多轮连续任务": {
+      "tasks": 85,
+      "pairs": {
+        "both_good": 38,
+        "interference": 16,
+        "rescue": 30,
+        "both_bad": 1
+      },
+      "base": {
+        "usable": 54,
+        "A": 44,
+        "grades": {
+          "A": 44,
+          "B": 10,
+          "C": 25,
+          "D": 6
+        },
+        "complete": 53,
+        "severe": 31,
+        "tasks_with_api_error": 0,
+        "llm_calls": 175,
+        "input_tokens": 50277,
+        "output_tokens": 275672
+      },
+      "bkc": {
+        "usable": 68,
+        "A": 61,
+        "grades": {
+          "A": 61,
+          "D": 3,
+          "C": 14,
+          "B": 7
+        },
+        "complete": 66,
+        "severe": 12,
+        "tasks_with_api_error": 0,
+        "llm_calls": 250,
+        "input_tokens": 2051583,
+        "output_tokens": 254380
+      }
+    },
+    "推荐与实用建议": {
+      "tasks": 40,
+      "pairs": {
+        "interference": 2,
+        "both_good": 37,
+        "rescue": 1
+      },
+      "base": {
+        "usable": 39,
+        "A": 38,
+        "grades": {
+          "A": 38,
+          "B": 1,
+          "C": 1
+        },
+        "complete": 39,
+        "severe": 1,
+        "tasks_with_api_error": 0,
+        "llm_calls": 40,
+        "input_tokens": 1562,
+        "output_tokens": 86086
+      },
+      "bkc": {
+        "usable": 38,
+        "A": 33,
+        "grades": {
+          "C": 1,
+          "A": 33,
+          "B": 5,
+          "D": 1
+        },
+        "complete": 38,
+        "severe": 2,
+        "tasks_with_api_error": 0,
+        "llm_calls": 49,
+        "input_tokens": 291874,
+        "output_tokens": 84207
+      }
+    },
+    "数值与换算": {
+      "tasks": 84,
+      "pairs": {
+        "both_good": 81,
+        "rescue": 2,
+        "both_bad": 1
+      },
+      "base": {
+        "usable": 81,
+        "A": 56,
+        "grades": {
+          "A": 56,
+          "B": 25,
+          "C": 2,
+          "D": 1
+        },
+        "complete": 81,
+        "severe": 3,
+        "tasks_with_api_error": 0,
+        "llm_calls": 84,
+        "input_tokens": 4202,
+        "output_tokens": 64581
+      },
+      "bkc": {
+        "usable": 83,
+        "A": 78,
+        "grades": {
+          "A": 78,
+          "B": 5,
+          "C": 1
+        },
+        "complete": 83,
+        "severe": 1,
+        "tasks_with_api_error": 0,
+        "llm_calls": 74,
+        "input_tokens": 324396,
+        "output_tokens": 46808
+      }
+    },
+    "数据库查询": {
+      "tasks": 77,
+      "pairs": {
+        "rescue": 58,
+        "both_bad": 11,
+        "both_good": 2,
+        "interference": 6
+      },
+      "base": {
+        "usable": 8,
+        "A": 0,
+        "grades": {
+          "C": 49,
+          "D": 20,
+          "B": 8
+        },
+        "complete": 5,
+        "severe": 69,
+        "tasks_with_api_error": 0,
+        "llm_calls": 77,
+        "input_tokens": 3727,
+        "output_tokens": 179218
+      },
+      "bkc": {
+        "usable": 60,
+        "A": 59,
+        "grades": {
+          "A": 59,
+          "D": 8,
+          "C": 9,
+          "B": 1
+        },
+        "complete": 59,
+        "severe": 8,
+        "tasks_with_api_error": 0,
+        "llm_calls": 163,
+        "input_tokens": 1415295,
+        "output_tokens": 192614
+      }
+    },
+    "混合任务": {
+      "tasks": 11,
+      "pairs": {
+        "rescue": 10,
+        "both_good": 1
+      },
+      "base": {
+        "usable": 1,
+        "A": 0,
+        "grades": {
+          "C": 9,
+          "D": 1,
+          "B": 1
+        },
+        "complete": 1,
+        "severe": 10,
+        "tasks_with_api_error": 0,
+        "llm_calls": 11,
+        "input_tokens": 537,
+        "output_tokens": 23592
+      },
+      "bkc": {
+        "usable": 11,
+        "A": 9,
+        "grades": {
+          "B": 2,
+          "A": 9
+        },
+        "complete": 9,
+        "severe": 0,
+        "tasks_with_api_error": 0,
+        "llm_calls": 24,
+        "input_tokens": 375048,
+        "output_tokens": 20774
+      }
+    },
+    "知识与方法解释": {
+      "tasks": 203,
+      "pairs": {
+        "both_good": 200,
+        "interference": 1,
+        "rescue": 2
+      },
+      "base": {
+        "usable": 201,
+        "A": 193,
+        "grades": {
+          "A": 193,
+          "B": 8,
+          "C": 1,
+          "D": 1
+        },
+        "complete": 201,
+        "severe": 2,
+        "tasks_with_api_error": 0,
+        "llm_calls": 203,
+        "input_tokens": 9296,
+        "output_tokens": 409512
+      },
+      "bkc": {
+        "usable": 202,
+        "A": 198,
+        "grades": {
+          "A": 198,
+          "B": 4,
+          "C": 1
+        },
+        "complete": 202,
+        "severe": 1,
+        "tasks_with_api_error": 0,
+        "llm_calls": 204,
+        "input_tokens": 783965,
+        "output_tokens": 364175
+      }
+    }
+  },
+  "by_source": {
+    "旧200": {
+      "tasks": 200,
+      "pairs": {
+        "both_good": 163,
+        "rescue": 31,
+        "interference": 5,
+        "both_bad": 1
+      },
+      "base": {
+        "usable": 168,
+        "A": 141,
+        "grades": {
+          "A": 141,
+          "B": 27,
+          "C": 16,
+          "D": 16
+        },
+        "complete": 167,
+        "severe": 32,
+        "tasks_with_api_error": 0,
+        "llm_calls": 230,
+        "input_tokens": 28126,
+        "output_tokens": 451549
+      },
+      "bkc": {
+        "usable": 194,
+        "A": 189,
+        "grades": {
+          "A": 189,
+          "B": 5,
+          "D": 2,
+          "C": 4
+        },
+        "complete": 194,
+        "severe": 5,
+        "tasks_with_api_error": 0,
+        "llm_calls": 266,
+        "input_tokens": 1604040,
+        "output_tokens": 393314
+      }
+    },
+    "新增300": {
+      "tasks": 300,
+      "pairs": {
+        "both_good": 196,
+        "interference": 20,
+        "rescue": 72,
+        "both_bad": 12
+      },
+      "base": {
+        "usable": 216,
+        "A": 190,
+        "grades": {
+          "A": 190,
+          "B": 26,
+          "C": 71,
+          "D": 13
+        },
+        "complete": 213,
+        "severe": 84,
+        "tasks_with_api_error": 0,
+        "llm_calls": 360,
+        "input_tokens": 41475,
+        "output_tokens": 587112
+      },
+      "bkc": {
+        "usable": 268,
+        "A": 249,
+        "grades": {
+          "A": 249,
+          "C": 22,
+          "B": 19,
+          "D": 10
+        },
+        "complete": 263,
+        "severe": 19,
+        "tasks_with_api_error": 0,
+        "llm_calls": 498,
+        "input_tokens": 3638121,
+        "output_tokens": 569644
+      }
+    }
+  },
+  "note": "Deliberately product-oriented development distribution; not an independent holdout. No random-population gain claimed."
+}

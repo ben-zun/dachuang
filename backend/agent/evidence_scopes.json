@@ -1,0 +1,50 @@
+{
+  "RV311": {
+    "source_sha256": "739c7cb724b5b7b25d5c7d2cf57ff2b61f93d47c4aeeb60c0b03e37e24e51495",
+    "scope": {
+      "role": "热电材料家族与合成方法、来源年代的工况背景",
+      "limits": "不支持当前最佳性能排名、现价或未核验精确数值",
+      "curation": "manual_source_role_not_block_claim_certification"
+    }
+  },
+  "RV312": {
+    "source_sha256": "3eee442bb8bcbb2d7cace451b734fe81ba1f6497e1c6c7b1d2513c6aee20957e",
+    "scope": {
+      "role": "无稀土硬磁候选及结构/制备条件",
+      "limits": "普通FeCo与特殊畸变候选不可混同；不支持当前性能排名",
+      "curation": "manual_source_role_not_block_claim_certification"
+    }
+  },
+  "RV313": {
+    "source_sha256": "b71cac028af9cd9b08cc953b21e9660b9e2191f333adad691da448086e18d3a1",
+    "scope": {
+      "role": "铪基铁电相界、相共存及器件背景",
+      "limits": "晶相与铁电/反铁电响应有条件；不能由相名推出普适响应",
+      "curation": "manual_source_role_not_block_claim_certification"
+    }
+  },
+  "RV314": {
+    "source_sha256": "0729c5d875b9f700e790341653a1a5c5e05ecd406b84e6306a523c05f6b47fc7",
+    "scope": {
+      "role": "固态锂电池氧化物/硫化物体系和界面限制",
+      "limits": "不是氧离子燃料电池综述；不支持无条件电阻倍数与统一阈值",
+      "curation": "manual_source_role_not_block_claim_certification"
+    }
+  },
+  "RV315": {
+    "source_sha256": "d9549d43364cf795a8b06fda707e42de4b0e866b2c23690d60c6792f771ab569",
+    "scope": {
+      "role": "2019年常关型GaN HEMT实现路线与可靠性",
+      "limits": "商业化/唯一性描述仅为来源年代，不支持当前市场唯一性",
+      "curation": "manual_source_role_not_block_claim_certification"
+    }
+  },
+  "RV316": {
+    "source_sha256": "92e2a46ef601393e2131c7d42ee3c87fc76d4b5f24b9cee285735b08e66d56ba",
+    "scope": {
+      "role": "2024年二维材料计量、均匀性和产线表征权衡",
+      "limits": "层数相关描述不自动支持带隙变化方向；in-line不等于in-situ",
+      "curation": "manual_source_role_not_block_claim_certification"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "name": "corundum",
+    "aliases": [
+      "刚玉",
+      "corundum",
+      "α-氧化铝",
+      "α氧化铝",
+      "α-Al2O3",
+      "alpha-alumina",
+      "alpha alumina"
+    ],
+    "formula": "Al2O3",
+    "space_group_numbers": [
+      167
+    ],
+    "source_url": "https://aflow.org/p/A2B3_hR10_167_c_e-001/"
+  },
+  {
+    "name": "wurtzite",
+    "modifiers": [
+      "纤锌矿型",
+      "纤锌矿",
+      "wurtzite"
+    ],
+    "space_group_numbers": [
+      186
+    ],
+    "source_url": "https://aflow.org/p/AB_hP4_186_b_b-001/"
+  },
+  {
+    "name": "zinc_oxide",
+    "aliases": [
+      "zinc oxide"
+    ],
+    "formula": "ZnO",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14806"
+  }
+]

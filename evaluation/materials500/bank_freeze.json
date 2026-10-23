@@ -1,0 +1,8 @@
+{
+  "questions_sha256": "64befac5c1959592929e893deef97e00e9addcd03ef1ca2209b00d911919926b",
+  "references_sha256": "785289e0008485be59f02d5a88c4a30d505d98891c8825e2241b49a3607211cc",
+  "tasks": 500,
+  "turns_per_arm": 590,
+  "policy": "same model and decoding, fresh Base and final patched BKC first answers, no system modifications after freeze, no regenerate-and-select",
+  "model_commit": "630e6e55d2ed06a6e6516d8e9bad8e46298bb684"
+}

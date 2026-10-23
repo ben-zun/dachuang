@@ -1,0 +1,1062 @@
+{
+  "schema": "block-admission-v1",
+  "index_version": "v21-83f2b8a228df7e57",
+  "units_sha256": "0b282cac7124d26520a26ca3800b48c0a92cf93a1f10f4e326b463c033e5b2b5",
+  "default": "background-grade",
+  "reviewer": "existing assistant visual audit; not expert scientific review",
+  "reviews": {
+    "B03-ac6f4bf916317763:s0:b0": {
+      "grade": "quarantine",
+      "text_sha256": "25aaac4518db113f01f6a6dcc8330e363634eda251b9a931b1ab3c3c3dc04524",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页清晰英文Variational Principle与原子单位表，解析却整页变成❑/❪等符号及a113字码；不是原图不可读。表排除，但五个乱码list/paragraph仍进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P08",
+        "page": 1,
+        "source_sha256": "ac6f4bf916317763b19f90d16e378370777ef0f079e1151488e8a33ad2ec6eab"
+      },
+      "precision_verified": false
+    },
+    "B03-ac6f4bf916317763:s0:b3": {
+      "grade": "quarantine",
+      "text_sha256": "0181c264b6f9de404ae249aefb27d24e7ea9e15020f2f3dc11d686db5bd68bf8",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页清晰英文Variational Principle与原子单位表，解析却整页变成❑/❪等符号及a113字码；不是原图不可读。表排除，但五个乱码list/paragraph仍进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P08",
+        "page": 1,
+        "source_sha256": "ac6f4bf916317763b19f90d16e378370777ef0f079e1151488e8a33ad2ec6eab"
+      },
+      "precision_verified": false
+    },
+    "B03-ac6f4bf916317763:s0:b4": {
+      "grade": "quarantine",
+      "text_sha256": "2b60002514d5a013038df59a6c1cf953dc125637bedae83caa2c2418692a9d6f",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页清晰英文Variational Principle与原子单位表，解析却整页变成❑/❪等符号及a113字码；不是原图不可读。表排除，但五个乱码list/paragraph仍进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P08",
+        "page": 1,
+        "source_sha256": "ac6f4bf916317763b19f90d16e378370777ef0f079e1151488e8a33ad2ec6eab"
+      },
+      "precision_verified": false
+    },
+    "B03-ac6f4bf916317763:s0:b5": {
+      "grade": "quarantine",
+      "text_sha256": "fc5ecefeb990982538f9428e0992bdebba77cb2ee7818d191c4795a970d8e391",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页清晰英文Variational Principle与原子单位表，解析却整页变成❑/❪等符号及a113字码；不是原图不可读。表排除，但五个乱码list/paragraph仍进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P08",
+        "page": 1,
+        "source_sha256": "ac6f4bf916317763b19f90d16e378370777ef0f079e1151488e8a33ad2ec6eab"
+      },
+      "precision_verified": false
+    },
+    "B03-ac6f4bf916317763:s0:b6": {
+      "grade": "quarantine",
+      "text_sha256": "bea01dc4369d44929e8765ebe9b376ff03f680af8949f6b1998a1f87b04dfef6",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页清晰英文Variational Principle与原子单位表，解析却整页变成❑/❪等符号及a113字码；不是原图不可读。表排除，但五个乱码list/paragraph仍进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P08",
+        "page": 1,
+        "source_sha256": "ac6f4bf916317763b19f90d16e378370777ef0f079e1151488e8a33ad2ec6eab"
+      },
+      "precision_verified": false
+    },
+    "B07-da17dae5e992ddda:s0:b23": {
+      "grade": "quarantine",
+      "text_sha256": "6a0fe123e9b883ac3aa7847ef5f24a424ef1ac80797d89fd1904b6724426af98",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原文明确电子自旋±1/2、两态+1/2与-1/2，正文变为“spin of which”及“spin and”；表半整数自旋也缺失，g(E)变空括号。表和显示式被排除，但缺数值的普通段落保留在background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P09",
+        "page": 2,
+        "source_sha256": "da17dae5e992dddaacf9527ad562c79f05d022f3493cc7af2ec1596458be5f2a"
+      },
+      "precision_verified": false
+    },
+    "B07-da17dae5e992ddda:s1:b0": {
+      "grade": "quarantine",
+      "text_sha256": "ca03a1278f889b0949a5e7673f380f3b090b65fd45f234827ae8fac382e56e64",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原文明确电子自旋±1/2、两态+1/2与-1/2，正文变为“spin of which”及“spin and”；表半整数自旋也缺失，g(E)变空括号。表和显示式被排除，但缺数值的普通段落保留在background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P09",
+        "page": 2,
+        "source_sha256": "da17dae5e992dddaacf9527ad562c79f05d022f3493cc7af2ec1596458be5f2a"
+      },
+      "precision_verified": false
+    },
+    "B04-7c19a798f22db3e3:s1:b20": {
+      "grade": "quarantine",
+      "text_sha256": "4b6247ea7223dd744aaed3e83e86a9813b35f04e32cde3abaecfdc868602545c",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "Si/Ge两相共存与化学势分解式丢失；Δμ的完整变量与解释被拆成多个list，active中保留“α:solution model...”但对应Δμ变量在短块被过滤，导致变量—解释关系不完整。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P18",
+        "page": 4,
+        "source_sha256": "7c19a798f22db3e3835bc31525379a58a497b6e4ea237f62665da127099dc510"
+      },
+      "precision_verified": false
+    },
+    "B04-7c19a798f22db3e3:s1:b25": {
+      "grade": "quarantine",
+      "text_sha256": "2996575d377a518c41a88368f8f9b1c30969a2a1446d100cd66802efece2111b",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "Si/Ge两相共存与化学势分解式丢失；Δμ的完整变量与解释被拆成多个list，active中保留“α:solution model...”但对应Δμ变量在短块被过滤，导致变量—解释关系不完整。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P18",
+        "page": 4,
+        "source_sha256": "7c19a798f22db3e3835bc31525379a58a497b6e4ea237f62665da127099dc510"
+      },
+      "precision_verified": false
+    },
+    "R06-c5dfd8afda5c95dc:s8:b33": {
+      "grade": "quarantine",
+      "text_sha256": "347339e9e4aed5eb18610bfd0c742b388010bd22e3fbf297fede248a171475bc",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "两栏大体分开，但左栏“Solving Eq11 scales...”与“However approximation...”段顺序颠倒，Woodbury式后补充句位置也后置；11–14显示式丢失，inline求和缺下限、维数/幂次摊平仍在background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P21",
+        "page": 13,
+        "source_sha256": "c5dfd8afda5c95dc3184c297f4425f799bc5ae5f8cb81a156fd2dac51b184328"
+      },
+      "precision_verified": false
+    },
+    "R06-c5dfd8afda5c95dc:s8:b38": {
+      "grade": "quarantine",
+      "text_sha256": "42845dae6227d6b4445e813783b0255645aba5e84c43abeacc693b18c378a852",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "两栏大体分开，但左栏“Solving Eq11 scales...”与“However approximation...”段顺序颠倒，Woodbury式后补充句位置也后置；11–14显示式丢失，inline求和缺下限、维数/幂次摊平仍在background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P21",
+        "page": 13,
+        "source_sha256": "c5dfd8afda5c95dc3184c297f4425f799bc5ae5f8cb81a156fd2dac51b184328"
+      },
+      "precision_verified": false
+    },
+    "R09-6658694f936cb61c:s14:b0": {
+      "grade": "quarantine",
+      "text_sha256": "80812e73439aadcf2b2307018a94788c89ab8ff1cf475950c04e48710dd23d00",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "左右栏与图3图注位置总体连贯，216原子/16.2Å/0.032Å/1%/约5Å等数值匹配原文；模式(qν)处出现控制字符和括号残片，仍进background；图注排除。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P23",
+        "page": 8,
+        "source_sha256": "6658694f936cb61c53af97c2ddb7e6aaa7f0789433726c84bf10e73812c67176"
+      },
+      "precision_verified": false
+    },
+    "R11-d3c354ea46ddff5d:s8:b8": {
+      "grade": "quarantine",
+      "text_sha256": "926fb8e4f556a16deae017f0eb6fc78e54fc486dd88893cdf28dff132cb82b1e",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "正文两栏基本正确、20%HF交换保留；原页脚注“about 10^5 empirical parameters”变为“about 105 empirical parameters”，是明确数量级损坏且该脚注进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P25",
+        "page": 6,
+        "source_sha256": "d3c354ea46ddff5d2a54a49f2bd7503e720c81f1f37ae65e270cce80b4d7e379"
+      },
+      "precision_verified": false
+    },
+    "R07-646f5054f3cc986b:s25:b0": {
+      "grade": "quarantine",
+      "text_sha256": "271c53c0ab604e34b703cfae51537bbd05ef9d14ae9127e7c266ed51ce930d6c",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "聚合氮图注和正文50GPa、0.09eV/N、约1eV/atom、1.6eV、20GPa/10keV保留；原N5+的5为下标/+为上标，parser写成N+5，电荷与原子数位置歧义且该段在background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P46",
+        "page": 23,
+        "source_sha256": "646f5054f3cc986b63d462b66749b0da9ca9bf0edd4822b066c907ed4f30d3e6"
+      },
+      "precision_verified": false
+    },
+    "R09-6658694f936cb61c:s6:b11": {
+      "grade": "quarantine",
+      "text_sha256": "0da195c058d0a761d21aef9612c463b3d0aa21be9f860edd26c6fcca9fa2b9f3",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "图1曲线未转数值，BTE/热流/分布/导热公式全占位；正文ħ变控制字符+h、Q=0变Q¼0、x定义变“x ; ...”且仍进入background，不能精确复用。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P47",
+        "page": 3,
+        "source_sha256": "6658694f936cb61c53af97c2ddb7e6aaa7f0789433726c84bf10e73812c67176"
+      },
+      "precision_verified": false
+    },
+    "R09-6658694f936cb61c:s6:b13": {
+      "grade": "quarantine",
+      "text_sha256": "6135696904e3f575df6e297e39088fc8d998b88b242ff12f27f0be65219be8d5",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "图1曲线未转数值，BTE/热流/分布/导热公式全占位；正文ħ变控制字符+h、Q=0变Q¼0、x定义变“x ; ...”且仍进入background，不能精确复用。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P47",
+        "page": 3,
+        "source_sha256": "6658694f936cb61c53af97c2ddb7e6aaa7f0789433726c84bf10e73812c67176"
+      },
+      "precision_verified": false
+    },
+    "B07-ea4a0ae7ffb8454b:s7:b2": {
+      "grade": "quarantine",
+      "text_sha256": "1e93c926b522edbb5cdfda2561b9d12248873f195f84fadf0c981e8cbd498280",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原图周期边界、e^(ikL)=1、k=2πn/L、2L/a与10^22清晰；paragraph内公式却读序混乱、上下标和分数摊平，且“10 22”未明确指数，主要数学段未被math过滤而进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P48",
+        "page": 6,
+        "source_sha256": "ea4a0ae7ffb8454bd90c989dfc99f3fa343bfb0b4a616eaf34fc144b3a3a716f"
+      },
+      "precision_verified": false
+    },
+    "B07-ea4a0ae7ffb8454b:s7:b3": {
+      "grade": "quarantine",
+      "text_sha256": "dfd5ac668c25597775af09cbde00b4cc4a9deaede108beeecb1bb1d6e2e530b8",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原图周期边界、e^(ikL)=1、k=2πn/L、2L/a与10^22清晰；paragraph内公式却读序混乱、上下标和分数摊平，且“10 22”未明确指数，主要数学段未被math过滤而进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P48",
+        "page": 6,
+        "source_sha256": "ea4a0ae7ffb8454bd90c989dfc99f3fa343bfb0b4a616eaf34fc144b3a3a716f"
+      },
+      "precision_verified": false
+    },
+    "B07-ea4a0ae7ffb8454b:s7:b4": {
+      "grade": "quarantine",
+      "text_sha256": "b6cb34dd61555a3a98c2ad518468a1180f769df588bc47980f6c5ca5dfcad36d",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原图周期边界、e^(ikL)=1、k=2πn/L、2L/a与10^22清晰；paragraph内公式却读序混乱、上下标和分数摊平，且“10 22”未明确指数，主要数学段未被math过滤而进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P48",
+        "page": 6,
+        "source_sha256": "ea4a0ae7ffb8454bd90c989dfc99f3fa343bfb0b4a616eaf34fc144b3a3a716f"
+      },
+      "precision_verified": false
+    },
+    "B07-ea4a0ae7ffb8454b:s7:b6": {
+      "grade": "quarantine",
+      "text_sha256": "a009167278a9dfac2e38f188db7c56759796da59cd748fa4d5081c42a860559f",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原图周期边界、e^(ikL)=1、k=2πn/L、2L/a与10^22清晰；paragraph内公式却读序混乱、上下标和分数摊平，且“10 22”未明确指数，主要数学段未被math过滤而进入background。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P48",
+        "page": 6,
+        "source_sha256": "ea4a0ae7ffb8454bd90c989dfc99f3fa343bfb0b4a616eaf34fc144b3a3a716f"
+      },
+      "precision_verified": false
+    },
+    "B10-500423dd98646c47:s0:b6": {
+      "grade": "quarantine",
+      "text_sha256": "d7d46f1a795992045eed90f7ee6ea120c8fd7d2e7f9657fc9b5acbaac62c66f4",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "普通正文大体可读，但δ≈1nm变“≈←1nm]”，最关键自扩散率次序原D^S>D^B≈D^D(undissoc)>...被错排成“S > ⋆DB ... ⋆D≈...”并入background；是正文混入公式的漏筛。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P52",
+        "page": 1,
+        "source_sha256": "500423dd98646c47e0d8853e14ba1661f74f94ae5619af0a662100bc8f7b7d82"
+      },
+      "precision_verified": false
+    },
+    "B10-500423dd98646c47:s0:b7": {
+      "grade": "quarantine",
+      "text_sha256": "5101bcb6fc0712f39476e15e7989a190049248c7480353edb06fa2dd2445fba4",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "普通正文大体可读，但δ≈1nm变“≈←1nm]”，最关键自扩散率次序原D^S>D^B≈D^D(undissoc)>...被错排成“S > ⋆DB ... ⋆D≈...”并入background；是正文混入公式的漏筛。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P52",
+        "page": 1,
+        "source_sha256": "500423dd98646c47e0d8853e14ba1661f74f94ae5619af0a662100bc8f7b7d82"
+      },
+      "precision_verified": false
+    },
+    "B03-8024e86434c09590:s1:b2": {
+      "grade": "quarantine",
+      "text_sha256": "6a408d6b3bbabec6b9872e65f5c9a971e5cc58e6c83ef2766540a5ae271732cc",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页是清晰可读的有效核电荷、原子半径与电离能英文正文及三条脚注；parser五个paragraph全部变成Dingbat符号/aNNN字码，仍被标text_only且分成8个background units。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P60",
+        "page": 5,
+        "source_sha256": "8024e86434c095906685bed3f74f21f26021738938e9073bfd70f8fc7828bc5c"
+      },
+      "precision_verified": false
+    },
+    "B03-8024e86434c09590:s1:b3": {
+      "grade": "quarantine",
+      "text_sha256": "c607f4acd3878956882e1fb8435722901b32d352ab6a6fcb3529f254ce1bbd97",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页是清晰可读的有效核电荷、原子半径与电离能英文正文及三条脚注；parser五个paragraph全部变成Dingbat符号/aNNN字码，仍被标text_only且分成8个background units。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P60",
+        "page": 5,
+        "source_sha256": "8024e86434c095906685bed3f74f21f26021738938e9073bfd70f8fc7828bc5c"
+      },
+      "precision_verified": false
+    },
+    "B03-8024e86434c09590:s1:b4": {
+      "grade": "quarantine",
+      "text_sha256": "8d499650e3877fbe430173d89ccc2f1168be8b4ddef94eee9154bc81c2a1feff",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页是清晰可读的有效核电荷、原子半径与电离能英文正文及三条脚注；parser五个paragraph全部变成Dingbat符号/aNNN字码，仍被标text_only且分成8个background units。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P60",
+        "page": 5,
+        "source_sha256": "8024e86434c095906685bed3f74f21f26021738938e9073bfd70f8fc7828bc5c"
+      },
+      "precision_verified": false
+    },
+    "B03-8024e86434c09590:s1:b5": {
+      "grade": "quarantine",
+      "text_sha256": "95ea0f917b11a9c305ff735b8a8d1e85f645118f388f2d0b892850ead3e3fecf",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页是清晰可读的有效核电荷、原子半径与电离能英文正文及三条脚注；parser五个paragraph全部变成Dingbat符号/aNNN字码，仍被标text_only且分成8个background units。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P60",
+        "page": 5,
+        "source_sha256": "8024e86434c095906685bed3f74f21f26021738938e9073bfd70f8fc7828bc5c"
+      },
+      "precision_verified": false
+    },
+    "B03-8024e86434c09590:s1:b6": {
+      "grade": "quarantine",
+      "text_sha256": "e70bed26e3bdfaabf721ac2e6560c61ee5e28ef785c8567c8964e8d17a1f2d60",
+      "reasons": [
+        "confirmed_visual_parse_damage",
+        "原页是清晰可读的有效核电荷、原子半径与电离能英文正文及三条脚注；parser五个paragraph全部变成Dingbat符号/aNNN字码，仍被标text_only且分成8个background units。"
+      ],
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "sample_id": "P60",
+        "page": 5,
+        "source_sha256": "8024e86434c095906685bed3f74f21f26021738938e9073bfd70f8fc7828bc5c"
+      },
+      "precision_verified": false
+    },
+    "B06-c0ef1d0ea2040d5a:s0:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "9fc057d1c6fd9b07f452470cc65165a5048a8a5a7277940f49eb177902b0a131",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "c0ef1d0ea2040d5a5e893fb8fc3e17c0e7b980c8f320f55850cd29080c385637"
+      }
+    },
+    "B03-de154c1245f3b2b9:s0:b3": {
+      "grade": "fact-grade",
+      "text_sha256": "07aef1c3339daaff02b5884f3685eb47b33e39b3013cdb25e1f5aff4268544e4",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "de154c1245f3b2b9fbba960dfbe39bdf014d4ff6098c64a855a475b9aa4cb0d0"
+      }
+    },
+    "B03-de154c1245f3b2b9:s0:b4": {
+      "grade": "fact-grade",
+      "text_sha256": "445d6124a556e8a7daab8d1fc1c2b4bcc61452bfc762e723c003e7b9f9a221c9",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "de154c1245f3b2b9fbba960dfbe39bdf014d4ff6098c64a855a475b9aa4cb0d0"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s8:b12": {
+      "grade": "fact-grade",
+      "text_sha256": "7398eb5351b977a8c3270a01145d78355c98ece7b9e770b18384e5af89189a6f",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s8:b13": {
+      "grade": "fact-grade",
+      "text_sha256": "556a29614c041b63fabea732c01a3dd50b536595947d67ae4e65c477e08f1463",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s9:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "8ca6d24e9caaa751c62748488cc9ac4d1eda2d571639fd606ce164a846ccce30",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s9:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "48c08e05072b3677c3f9c18a2e1f061107b3369b3a79829031e95226e534fe77",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s10:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "9778d3036ff3810ef3ed243096fdcc3499a37c1a1d1f8b4a4209279f37d34040",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s10:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "e07b21d88db7fdf39c439704cd4dae78022336691e1d93b62f8ea902f986ee0c",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s10:b2": {
+      "grade": "fact-grade",
+      "text_sha256": "5383af8c55497a7ea22adefe3c60425edd03f136f6559e7f783edff3ea1d146e",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s11:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "b72a1eb913f92035186b5afbf187d484da98fa19cff914c3dccfef451a04ff79",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s11:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "4577a68b530237d55df00814cbd0aa11995d661e75927525f5a404f7965a7db3",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R04-3f63490cc9fbf43b:s11:b2": {
+      "grade": "fact-grade",
+      "text_sha256": "2d6ac219ae560789a59362f684fac0922a6c53216c3a8d9cccd96b296cb6f163",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          5
+        ],
+        "source_sha256": "3f63490cc9fbf43b42df87e6fd787d1ef60749bc172682426d8a1da60f967719"
+      }
+    },
+    "R06-c5dfd8afda5c95dc:s21:b7": {
+      "grade": "fact-grade",
+      "text_sha256": "1128392cb7fbb8c7af9b33f79d8cd2c986dd76e148d1c3a86392cf95c606046a",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          36
+        ],
+        "source_sha256": "c5dfd8afda5c95dc3184c297f4425f799bc5ae5f8cb81a156fd2dac51b184328"
+      }
+    },
+    "R06-c5dfd8afda5c95dc:s21:b8": {
+      "grade": "fact-grade",
+      "text_sha256": "95fe7091d33e60a890fb67bc33e9526d02793d00b75ce5ae7cd12d64de0ed1ce",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          36
+        ],
+        "source_sha256": "c5dfd8afda5c95dc3184c297f4425f799bc5ae5f8cb81a156fd2dac51b184328"
+      }
+    },
+    "R06-c5dfd8afda5c95dc:s21:b9": {
+      "grade": "fact-grade",
+      "text_sha256": "9957d622bfcbff203458c442476c4f9836bb270a08b5a2ded41b17476701370f",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          36
+        ],
+        "source_sha256": "c5dfd8afda5c95dc3184c297f4425f799bc5ae5f8cb81a156fd2dac51b184328"
+      }
+    },
+    "R06-c5dfd8afda5c95dc:s21:b10": {
+      "grade": "fact-grade",
+      "text_sha256": "b8c6e95e771f6d63333f0d0990b5bc703fdfcc321905d8e72610ec72e99b435c",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          36
+        ],
+        "source_sha256": "c5dfd8afda5c95dc3184c297f4425f799bc5ae5f8cb81a156fd2dac51b184328"
+      }
+    },
+    "B03-4a160c1779b91968:s2:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "834ec2e22cd078a6da7072ee03802c1c0cd3b2c128bf159f1482a0fc9c76d7d8",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          3
+        ],
+        "source_sha256": "4a160c1779b91968084a988ce606cc528692d95f96e4b6c30e9d038068d769f2"
+      }
+    },
+    "B03-4a160c1779b91968:s2:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "b3c80e1db7c0273e0809c4fdd042ab02475e4422b7f2ae64bb2be7de386ac343",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          3
+        ],
+        "source_sha256": "4a160c1779b91968084a988ce606cc528692d95f96e4b6c30e9d038068d769f2"
+      }
+    },
+    "B03-4a160c1779b91968:s2:b2": {
+      "grade": "fact-grade",
+      "text_sha256": "a4d752141feff4cf2e59a4a6229f7eef75d56d96fad481dd3501583229d8189f",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          3
+        ],
+        "source_sha256": "4a160c1779b91968084a988ce606cc528692d95f96e4b6c30e9d038068d769f2"
+      }
+    },
+    "O07-40bba48c128497ad:s2:b3": {
+      "grade": "fact-grade",
+      "text_sha256": "a6f86094c1d5ee4f5dbb9f4e9f83d2f267a36a8340d3cde7b16b3e4de73f8b97",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "40bba48c128497ad9fbfc980646eb08e26cbebcb5665fda2d87bf00ea45fec17"
+      }
+    },
+    "O07-40bba48c128497ad:s2:b4": {
+      "grade": "fact-grade",
+      "text_sha256": "e738221a0c9102f4b44e17f7fb0f5725783839b516e5f40615e742a27b27b926",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "40bba48c128497ad9fbfc980646eb08e26cbebcb5665fda2d87bf00ea45fec17"
+      }
+    },
+    "O07-40bba48c128497ad:s2:b5": {
+      "grade": "fact-grade",
+      "text_sha256": "1780315b0ada52004dfe2277796981c0c9a55b7868e9ed2ea08029c8145eca67",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "40bba48c128497ad9fbfc980646eb08e26cbebcb5665fda2d87bf00ea45fec17"
+      }
+    },
+    "O07-40bba48c128497ad:s2:b6": {
+      "grade": "fact-grade",
+      "text_sha256": "52e39c47874d15c9f21c748c12736fd78ab04b12e903730f334ecde6ac29c272",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "40bba48c128497ad9fbfc980646eb08e26cbebcb5665fda2d87bf00ea45fec17"
+      }
+    },
+    "O07-40bba48c128497ad:s3:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "1e1c3fc952278e6e4b6cbebed23885553bf7fee4a332d56367d7298930acf765",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "40bba48c128497ad9fbfc980646eb08e26cbebcb5665fda2d87bf00ea45fec17"
+      }
+    },
+    "O07-40bba48c128497ad:s3:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "301ea7053585738cfd8a871f7742108d94ebdf7a7d71e64a9412bc8f12e33c74",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "40bba48c128497ad9fbfc980646eb08e26cbebcb5665fda2d87bf00ea45fec17"
+      }
+    },
+    "O09-8eb17cdf512ca862:s5:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "359682faa0a8a3a8f3b0d003180ba3de9c819848cc5e7b788f910069c2750b00",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "O09-8eb17cdf512ca862:s5:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "da9c073aac253a60319df435c85ffad333c7f6d0172715c01ee0ee12aac60b0d",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "O09-8eb17cdf512ca862:s5:b2": {
+      "grade": "fact-grade",
+      "text_sha256": "fe354d346e2bf33efccfd843c2b3535a85eb91403f964422e984ca3358604b75",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "O09-8eb17cdf512ca862:s6:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "43a36f6d94d9623390d5e79dc1e37ff27efa01efdf0c2c9c3895197ff317db54",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "O09-8eb17cdf512ca862:s7:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "d0dd35913095f03e9bd850cea53a39bcc26d24498722c9476296a833c54aed43",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "O09-8eb17cdf512ca862:s7:b2": {
+      "grade": "fact-grade",
+      "text_sha256": "bd3a56768fa8398f46b895fe237406b05a8f2a166985110bb68bdf894a21727a",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "O09-8eb17cdf512ca862:s7:b3": {
+      "grade": "fact-grade",
+      "text_sha256": "f48721f246b1ebb583837ac0b3e4e5948565da688482d221ccc8d75022b6640b",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "O09-8eb17cdf512ca862:s7:b4": {
+      "grade": "fact-grade",
+      "text_sha256": "75728dc9feac9e2e5889c855a8662ef8808920c233450d894305a40242ae6372",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          2
+        ],
+        "source_sha256": "8eb17cdf512ca862a49b71c7d0febc14da3c7564d67e807d9f9534dd789f4f88"
+      }
+    },
+    "B03-66c203b0eda3ddad:s0:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "602c3a61651c4e80f506f8167f1be3b5321ae03f1a9de14bf04146c756914fc4",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "66c203b0eda3ddad718b301c7755465056b7fd78f570e724c2b30dae11d3a503"
+      }
+    },
+    "B03-66c203b0eda3ddad:s0:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "a5f01f9bd29227b8c18a1bd70de1613fec5f9dc7512e9e7a568d32014b823d7e",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "66c203b0eda3ddad718b301c7755465056b7fd78f570e724c2b30dae11d3a503"
+      }
+    },
+    "B03-66c203b0eda3ddad:s0:b2": {
+      "grade": "fact-grade",
+      "text_sha256": "987c3c99e36428393aaa6cbbe1c784257ce04a894e727f2af3fb0da74d3c30c7",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "66c203b0eda3ddad718b301c7755465056b7fd78f570e724c2b30dae11d3a503"
+      }
+    },
+    "B03-66c203b0eda3ddad:s0:b3": {
+      "grade": "fact-grade",
+      "text_sha256": "6f0803e6a749d246b3bfec30b86fa5eb2415dc9ece6e2b9629f6ef17a53c478f",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "66c203b0eda3ddad718b301c7755465056b7fd78f570e724c2b30dae11d3a503"
+      }
+    },
+    "B03-66c203b0eda3ddad:s1:b0": {
+      "grade": "fact-grade",
+      "text_sha256": "de33563b8eda30bd8b27109cd9ede719aefca86636e87b85a155b5c7ab1b0947",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "66c203b0eda3ddad718b301c7755465056b7fd78f570e724c2b30dae11d3a503"
+      }
+    },
+    "B03-66c203b0eda3ddad:s1:b1": {
+      "grade": "fact-grade",
+      "text_sha256": "0b2a4b5ce86a7b0a91c1fcf3f03eaf23b8c3b78b3cbcb84cc3288f3a4cd95acc",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "66c203b0eda3ddad718b301c7755465056b7fd78f570e724c2b30dae11d3a503"
+      }
+    },
+    "B03-66c203b0eda3ddad:s1:b2": {
+      "grade": "fact-grade",
+      "text_sha256": "b51a6d31be593177cd1d1d2689977876f5195d67a3880ed45ec3c4d74e45044c",
+      "reasons": [
+        "text_precision_checked_in_existing_visual_page_audit"
+      ],
+      "precision_verified": true,
+      "review_reference": {
+        "audit": "core-v21-pre-eval-20261018/parsing/per_page_review.json",
+        "pages": [
+          1
+        ],
+        "source_sha256": "66c203b0eda3ddad718b301c7755465056b7fd78f570e724c2b30dae11d3a503"
+      }
+    },
+    "B09-23ee8a914e5e6126:s3:b2": {
+      "grade": "quarantine",
+      "text_sha256": "ecb0f5c36615c18353b18a43afddfbb7e8cfcb9408fa109ed68764341f969190",
+      "reasons": [
+        "defect_Dprime_must_not_be_generalized_as_G_mode_splitting"
+      ],
+      "review_reference": {
+        "doc_id": "B09-23ee8a914e5e6126",
+        "verification_sources": [
+          "https://arxiv.org/abs/1207.2058",
+          "https://arxiv.org/abs/0812.1538"
+        ],
+        "audit": "C2.1 source scientific review",
+        "source_document_sha256": "4462d8388ea74cb81d1865ace15807b436fa8690286b79e59717d74907039c92"
+      },
+      "precision_verified": false
+    },
+    "B02-e8c13ef2a8f22674:s0:b0": {
+      "grade": "quarantine",
+      "text_sha256": "2200e404019d762a294ba58181ed84d3699c0b9deb6d68bab029f6e9f4f9052e",
+      "reasons": [
+        "KNO3_temperature_statement_omits_phase_and_thermal_history"
+      ],
+      "review_reference": {
+        "doc_id": "B02-e8c13ef2a8f22674",
+        "verification_sources": [
+          "https://oak.go.kr/central/journallist/journaldetail.do?article_seq=13421"
+        ],
+        "audit": "C2.1 source scientific review",
+        "source_document_sha256": "05eaf68be59e48c619dd0cb845d43e2f3d7852ebae725a6174abbe8088f519cf"
+      },
+      "precision_verified": false
+    }
+  }
+}
